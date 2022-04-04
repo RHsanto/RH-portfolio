@@ -1,0 +1,9 @@
+.projects img{
+  width: 580px;
+  object-fit: cover;
+  height: 362px;
+}
+
+.projects img:hover{
+  background-color: aqua;
+}

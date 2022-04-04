@@ -8,7 +8,6 @@ a{
 
 .my-container{
   margin-left: 150px;
-  margin-top: 150px;
 }
 .nav{
   padding: 30px 50px; }
@@ -43,9 +42,12 @@ color: #21E6C1 !important;
   display: flex;
 }
 /* banner css */
-
+.introduce{
+ margin-top: 150px;
+ margin-bottom: 150px;
+}
 .introduce h1{
-  font-size: 50px;
+  font-size: 60px;
   font-weight: bold;
 
 }
@@ -61,3 +63,40 @@ color: #21E6C1 !important;
   font-weight: bold;
   color: black;
 }
+.button-section{
+  margin-top: 50px;
+}
+/* about css */
+
+.about{
+  margin-top: 200px;
+ margin-bottom: 200px;
+}
+
+.about-info{
+  color: #8892b0;
+}
+.profile img{
+background-color: #E8E2E2;
+width:300px;
+height: 300px;
+object-fit: cover;
+padding-left: 20px;
+
+}
+
+
+.title{
+  color: #C1CAEA;
+  font-weight: bold;
+}
+.title:after {
+  content: '';
+  width: 70%;
+  height: 1px;
+  background-color: #8892b0;
+  display: inline-block;
+  transform: translateY(-7px);
+  margin: 0 10px;
+}
+
