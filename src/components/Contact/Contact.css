@@ -1,0 +1,30 @@
+.contact h1, p{
+color: aliceblue;
+}
+
+.contact p{
+width: 80%;
+margin: 0 auto;
+line-height: 30px;
+margin-top: 30px;
+margin-bottom: 40px;
+}
+.contact-btn{
+  border: 1px solid;
+  width: 120px;
+  margin: 0 auto;
+  padding: 10px 0px;
+  border-radius: 5px;
+  color: #21E6C1;
+}
+.contact-btn:hover{
+  background-color: #21E6C1;
+  color: black;
+}
+
+.contact-btn:hover a{
+  color: black ;
+}
+.contact-btn a{
+  color:#64ffda ;
+}
