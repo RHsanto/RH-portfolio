@@ -13,8 +13,8 @@ const Home = () => {
       <Projects/>
       <Blog/>
       {/* contact section */}
-      <div className="container">
-        <div className="row my-5">
+      <div className="container contact-section">
+        <div className="row my-5 my-container">
           <div className="col-lg-6 mx-auto contact text-center">
           <h1>Get In Touch</h1>
           <p>I’m currently looking for new opportunities, my inbox is always open. Whether you have a 

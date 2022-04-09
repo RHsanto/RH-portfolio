@@ -24,8 +24,8 @@ const Projects = () => {
         <p>Blogging Site</p>
         <h3>Docy</h3>
         <div className="info ">
-        A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, 
-        Package Control, Atom Package Manager, and npm.
+        The goal of the project is to facilitate documentation or blog posting and to help create different types of
+         documentation or blogs. It allows any user to view anyone's blog without any restrictions.
         </div>
         <ul className='mt-4 d-flex justify-content-end tools'><li>VS Code</li>
          <li> Sublime Text</li>

@@ -1,0 +1,24 @@
+.B-card{
+  background-color: #112240;
+  height: 500px;
+}
+.B-card .card-title{
+  color: aliceblue;
+}
+.B-card .card-btn{
+ color: #21E6C1;
+ border: 1px solid;
+ padding: 10px ;
+ border-radius: 5px;
+
+}
+
+.B-card .card-btn:hover{
+  background-color: #21E6C1;
+  color: black;
+}
+.B-card img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
