@@ -14,7 +14,7 @@ const AllProjects = () => {
   return (
     <div className='project'>
     <div className="container">
-      <div className="row all my-container">
+      <div className="row all ">
     <h3 className='all-title '>My Recent Projects</h3>
     {/* project-1 */}
        <div className="col-lg-12">
