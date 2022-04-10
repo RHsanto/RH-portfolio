@@ -40,10 +40,14 @@
   border-radius: 5px;
   
 }
-.tools{
- text-align: right;
-
+.tools{text-align: right;}
+.site2 .tools{
+  text-align: left;
+  margin-left:-35px ;
 }
+
+
+
 .tools li{
 display: inline-block;
 list-style: none;
@@ -58,7 +62,7 @@ font-size: 15px;
 
 }
 
-.site p{
+.site p, .site2 p{
   color:#64ffda;
   font-size: 15px;
  letter-spacing: 2px;
@@ -69,15 +73,21 @@ display: flex;
 right: 20px;
 gap: 30px;
 }
+
+.site2 .link-up{
+position: absolute;
+display: flex;
+left: 20px;
+gap: 30px;
+}
 .link-up h6{
-margin-top: 10px;
-margin-left: -22px;
+margin: 4px;
 font-size: 15px;
 }
 .link-up a{
-  color: white;
-  font-size: 24px;
- 
+color: white;
+font-size: 24px;
+display: flex;
 }
 .link-up a:hover{
   color: #64ffda;
