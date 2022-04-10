@@ -4,7 +4,9 @@
   height: 362px;
   
 }
-
+.project{
+  margin-bottom: 200px;
+}
 .div{
  margin-bottom: 50px;
  margin-top: 50px;
@@ -111,4 +113,35 @@ display: flex;
 }
 .projects-btn:hover{
   background-color: #64ffda;
+}
+
+/* all projects css */
+.all{
+  margin-top: 50px;
+ 
+}
+.all-title{
+  margin-bottom: 100px;
+}
+.all-title{
+  color: #C1CAEA;
+  font-weight: bold;
+}
+.all-title::after {
+  content: '';
+  width: 30%;
+  height: 1px;
+  background-color: #8892b0;
+  display: inline-block;
+  transform: translateY(-7px);
+  margin: 0 10px;
+}
+.all-title::before {
+  content: '';
+  width: 30%;
+  height: 1px;
+  background-color: #8892b0;
+  display: inline-block;
+  transform: translateY(-7px);
+  margin: 0 10px;
 }

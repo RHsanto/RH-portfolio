@@ -10,7 +10,8 @@ a{
   margin-left: 120px;
 }
 .nav{
-  padding: 30px 50px; }
+padding: 30px 50px 10px 50px;
+}
   .logo{
     color: white;
   }

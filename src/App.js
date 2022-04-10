@@ -4,9 +4,9 @@ import { BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import Navbar from './components/Home/Navbar';
 import Home from './components/Home/Home';
 import About from './components/Home/About/About';
-import Projects from './components/Projects/Projects';
 import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
+import AllProjects from './components/AllProjects/AllProjects';
 
 function App() {
   return (
@@ -24,8 +24,8 @@ function App() {
          <Route path ='/about'>
           <About/>
          </Route>
-         <Route path ='/projects'>
-          <Projects/>
+         <Route path ='/all-projects'>
+          <AllProjects/>
          </Route>
          <Route path ='/blog'>
           <Blog/>

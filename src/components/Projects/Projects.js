@@ -64,11 +64,11 @@ const Projects = () => {
          And admin orders can be approved, delete, and add new products.
         </div>
         <ul className='mt-4 tools'>
-          <li>HTML</li>
+        <li>HTML</li>
          <li>CSS</li>
          <li>React</li>
          <li>Material UI</li>
-         <li>Bootstrap CSS</li>
+         <li>Bootstrap</li>
          <li>Node.js</li>
          <li>Express.js</li>
          <li>MongoDB</li>
@@ -126,8 +126,8 @@ const Projects = () => {
              <HiOutlineExternalLink/><h6>Live</h6></a>
          </div>
          <div className="projects-btn">
-             <Link to='/projects'>
-             Learn more
+             <Link to='/all-projects'>
+            See all Projects
              </Link>
             </div>
          </div>

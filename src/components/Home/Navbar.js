@@ -7,7 +7,7 @@ const Navbar = () => {
     <div>
      <div className="navigation">
      <div className="container-fluid">
-       <div className=" d-flex justify-content-between nav">
+       <div className=" d-flex justify-content-between items-center nav shadow">
         <NavLink to='/home'>
         <div className="logo"><h2>Rakibul</h2></div>
         </NavLink>
@@ -19,7 +19,7 @@ const Navbar = () => {
            <NavLink to='/about'>
            <li>About</li>
            </NavLink>
-           <NavLink to='/projects'>
+           <NavLink to='/all-projects'>
            <li>Projects</li>
            </NavLink>
             <NavLink to='/blog'>
