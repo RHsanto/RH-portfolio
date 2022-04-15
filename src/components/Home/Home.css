@@ -101,3 +101,15 @@ padding-left: 20px;
   margin: 0 10px;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+  .my-container{
+    margin-left: 0px;
+  
+}
+.projects img{
+  width: 200px;
+}
+}
