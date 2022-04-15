@@ -15,7 +15,7 @@ const Projects = () => {
        <div className="row  my-container">
      <h3 className='title'>Projects</h3>
      {/* project-1 */}
-        <div className="col-lg-12">
+        <div className="col-lg-12 ">
           <div className="row div">
           <div className="col-lg-6 ">
          <div className="projects mt-5">
@@ -54,7 +54,7 @@ const Projects = () => {
           </div>
         </div>
      {/* project-2 */}
-        <div className="col-lg-12">
+        <div className="col-lg-12 ">
     <div className="row">
     <div className="col-lg-6 site2 ">
         <p>MERN stack Site</p>
@@ -92,7 +92,7 @@ const Projects = () => {
     </div>
         </div>
          {/* project-3 */}
-         <div className="col-lg-12">
+         <div className="col-lg-12 ">
           <div className="row div">
           <div className="col-lg-6 ">
          <div className="projects mt-5">

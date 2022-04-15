@@ -103,6 +103,26 @@ padding-left: 20px;
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .projects img{
+    width: 100% !important;
+    object-fit: cover;
+    
+  }
+  .site2, .site{
+    width: 100% !important;
+
+  }
+  .info{
+    padding: 25px;
+    margin-left: 0px;
+  }
+  .info2{
+    padding: 25px;
+    margin-right: 0px;
+  }
+  .div{
+   margin: 0px 0px ;
+   }
 .introduce{
   margin: 0px 0px;
   padding:50px 30px;
