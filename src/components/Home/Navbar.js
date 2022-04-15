@@ -2,7 +2,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { HiMenuAlt1 } from "react-icons/hi";
-import { FaUserCircle } from "react-icons/fa";
 const Navbar = () => {
   return (
     <div>
