@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import project1 from '../../image/project-1.png'
-import project3 from '../../image/project-2.png'
+import project3 from '../../image/project-3.png'
 import project2 from '../../image/1650102468052.png'
 import './Projects.css'
 import { AiOutlineGithub } from "react-icons/ai";
