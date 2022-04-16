@@ -3,10 +3,10 @@ import profile from '../../../image/profile.png'
 const About = () => {
   return (
     <div className='container '>
-      <div className="row  my-container about">
+      <div className="row  my-container about g-4">
         <div className="col-lg-6 about-info">
-          <h3 className='title'>About me</h3>
-         <p>Hello! My name is Rakibul and I enjoy creating things on the internet. 
+          <h3 className='title '>About me</h3>
+         <p className='mt-4'>Hello! My name is Rakibul and I enjoy creating things on the internet. 
             I am a self-motivated and enthusiastic web developer with a keen interest in 
             JavaScript. I am a programmer with a good level of expertise in front-end 
             web development. I am a technology lover. I am interested in MERN 

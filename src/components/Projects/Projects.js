@@ -1,8 +1,8 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import project1 from '../../image/project-1.png'
-import project2 from '../../image/project-2.png'
-import project3 from '../../image/project-3.png'
+import project3 from '../../image/project-2.png'
+import project2 from '../../image/1650102468052.png'
 import './Projects.css'
 import { AiOutlineGithub } from "react-icons/ai";
 import { HiOutlineExternalLink } from "react-icons/hi";
@@ -100,29 +100,29 @@ const Projects = () => {
          </div>
          </div>
          <div className="col-lg-6 site ">
-        <p>Educational site</p>
-        <h3>Educal</h3>
+        <p>Learning Management  site</p>
+        <h3>E-learning</h3>
         <div className="info ">
-        This is an educational website. Where there are courses and events in different educational categories. Which the user can order if he 
-        wants and the user can give his opinion about the course.
+        This website has never been fully created. There is some work left in the back-end of it which is in process.
+         I hope this project will be completed soon.
         </div>
         <ul className='mt-4 tools'>
          <li>React</li>
-         <li>Redux</li>
-         <li>Material UI</li>
          <li>Node.js</li>
          <li>Express.js</li>
          <li>MongoDB</li>
          <li>HTML</li>
          <li>CSS</li>
-         <li>Swiper.js</li>
+         <li>Bootstrap</li>
+         <li>React icon</li>
+         <li>Vercel</li>
          </ul>
          <div className="link-up">
-           <a target='_blank' href="https://github.com/RHsanto/edual-project">
+           <a target='_blank' href="https://github.com/RHsanto/learning-management-system">
              <AiOutlineGithub/><h6>Client</h6></a>
-           <a target='_blank' href="https://github.com/RHsanto/team-89-project-server-site">
+           <a target='_blank' href="https://github.com/RHsanto/learning-management--server-site">
              <AiOutlineGithub/><h6>Server</h6></a>
-           <a target='_blank' href="https://team-education-site.netlify.app/">
+           <a target='_blank' href="https://learning-management-system-theta.vercel.app/">
              <HiOutlineExternalLink/><h6>Live</h6></a>
          </div>
          <div className="projects-btn">

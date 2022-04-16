@@ -52,7 +52,7 @@ color: #21E6C1 !important;
   font-weight: bold;
   color: #8892B0;
 }
-.introduce .name{
+.introduce .name, .contact-title, .contact-me-title{
   color: #CCD6F6;
 }
 p{
@@ -157,7 +157,12 @@ z-index: 111;
   p{
   font-size: 16px;
   }
-
+  .about-border{
+  display: none;
+  }
+  .profile img{
+    position: relative;
+  }
   .title:after {
     width: 60%;
   }

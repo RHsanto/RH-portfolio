@@ -1,17 +1,8 @@
-.contact-section{
-padding: 100px 0px;
-}
-.contact h1, p{
-color: aliceblue;
+/* home contact */
+.contact-colum{
+margin: 100px auto;
 }
 
-.contact p{
-width: 80%;
-margin: 0 auto;
-line-height: 30px;
-margin-top: 30px;
-margin-bottom: 40px;
-}
 .contact-btn{
   border: 1px solid;
   width: 120px;
@@ -31,7 +22,26 @@ margin-bottom: 40px;
 .contact-btn a{
   color:#64ffda ;
 }
+/* main contact page */
+.contact-section{
+  margin-top: 60px;
+}
+.contact-me-title{
+  margin-bottom: 100px;
+}
+.send{
+ padding: 10px 30px;
+ border: 0;
+ border-radius: 5px;
+ border: 1px solid  #21E6C1;
+ background-color: #21E6C1;
+ width: 100px;
+ margin: 0 auto;
+ cursor: pointer;
+}
 
+
+/* mobile projects */
 .mb-card img{
   width:100%;
   height: 500px;
