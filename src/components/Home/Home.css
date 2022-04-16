@@ -123,6 +123,19 @@ z-index: 111;
 }
 .skills li{
   color: #21E6C1;
+  
+}
+
+/* mb menu */
+.mb-menu li{
+  list-style: none;
+  margin-top: 10px;
+  text-align: center;
+  color: #C1CAEA;
+  font-weight: bold;
+}
+.offcanvas{
+  background-color: #132a4e;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

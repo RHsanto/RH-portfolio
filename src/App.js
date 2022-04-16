@@ -7,6 +7,7 @@ import About from './components/Home/About/About';
 import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
 import AllProjects from './components/AllProjects/AllProjects';
+import MbProjects from './components/Projects/MbProjects';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
          </Route>
          <Route path ='/all-projects'>
           <AllProjects/>
+         </Route>
+         <Route path ='/mb-projects'>
+          <MbProjects/>
          </Route>
          <Route path ='/blog'>
           <Blog/>
