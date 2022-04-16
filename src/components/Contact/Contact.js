@@ -9,14 +9,14 @@ const Contact = () => {
   return (
     <div>
       <div className="container mt-5">
-        <div className="row text-light gy-4 gx-1">
+        <div className="row  gy-4 gx-1">
           <div className="col-lg-4 mb-card">
             <img src={Projects} alt="" />
           <div className="mb-info ">
           <h4 className='mb-4'>Halcyon Theme</h4>
-           <p>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.
+           <p className='text-dark'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.
              </p>
-             <div className=" tools text-start">
+             <div className=" tools text-start ">
              <li>HTML</li>
           <li>CSS</li>
         <li>React</li>

@@ -50,9 +50,11 @@ color: #21E6C1 !important;
 .introduce h1{
   font-size: 60px;
   font-weight: bold;
-
+  color: #C1CAEA;
 }
-
+p{
+  color: #C1CAEA !important;
+}
 .hi{
   color: #21E6C1;
 }
