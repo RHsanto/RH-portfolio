@@ -50,7 +50,10 @@ color: #21E6C1 !important;
 .introduce h1{
   font-size: 60px;
   font-weight: bold;
-  color: #C1CAEA;
+  color: #8892B0;
+}
+.introduce .name{
+  color: #CCD6F6;
 }
 p{
   color: #C1CAEA !important;
@@ -69,6 +72,19 @@ p{
 .button-section{
   margin-top: 50px;
 }
+.title{
+  color: #C1CAEA;
+  font-weight: bold;
+}
+.title:after {
+  content: '';
+  width: 70%;
+  height: 1px;
+  background-color: #8892b0;
+  display: inline-block;
+  transform: translateY(-7px);
+  margin: 0 10px;
+}
 /* about css */
 
 .about{
@@ -85,24 +101,29 @@ width:300px;
 height: 300px;
 object-fit: cover;
 padding-left: 20px;
-
+position: absolute;
+z-index: 111;
 }
 
-
-.title{
-  color: #C1CAEA;
-  font-weight: bold;
+.profile{
+  position: relative;
 }
-.title:after {
-  content: '';
-  width: 70%;
-  height: 1px;
-  background-color: #8892b0;
-  display: inline-block;
-  transform: translateY(-7px);
-  margin: 0 10px;
+.about-border{
+  border: 2px solid #21E6C1;
+  width:300px;
+  height: 300px;
+  left: 12%;
+  top: 20px;
+  position: absolute;
 }
-
+.skills{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 5px;
+}
+.skills li{
+  color: #21E6C1;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .projects img{

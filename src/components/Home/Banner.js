@@ -1,16 +1,21 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
+import Lafalafi from './Lafalafi';
 
 const Banner = () => {
   return (
  <div className='container '>
  <div className="row">
    <div className="introduce text-light col-lg-6 my-container">
-   <p className='hi'>Hi, my name is</p>
-<h1>Rakibul Hasan</h1>
-<h1>I 'm a Web Developer</h1>
-   <p className='mt-4'>A self-motivated and enthusiastic web developer with a deep interest in JavaScript. To work in the Software industry with modern web technologies of different local & multinational Software/
-      IT agencies of Bangladesh and grow rapidly with increasing responsibilities.</p>
+   <div className='hi'>Hi, my name is</div>
+<h1 className='name'>Rakibul Hasan</h1>
+<h2><Lafalafi/> </h2>
+   <p className='mt-4'>Hello! I am Rakibul. 
+   A self-motivated and enthusiastic web developer with a
+    keen interest in JavaScript. I am a programmer with a
+     good level of expertise in front-end web development. 
+     I am a technology lover. I am interested in MERN 
+     (ReactJS, NextJS, MongoDB, ExpressJS, NodeJS) stack web development.</p>
    
       <div className='d-flex align-items-center button-section  '>
         <a class="resume-button  " target="blank" href="https://www.linkedin.com/in/rakibul-hasan-santo/"> HIRE ME</a> 
