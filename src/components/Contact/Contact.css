@@ -40,7 +40,7 @@ margin-bottom: 40px;
 }
 .mb-card{
   position: relative;
-  display: inline-block;
+  overflow: hidden;
 }
 
 .mb-card .tools li{
@@ -51,20 +51,17 @@ margin-bottom: 40px;
   background-color: #C1CAEA;
   width:100%;
   top: 0;
+  left: 0;
   height: 500px;
   color: #000000 !important;
   padding: 100px 20px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  display: none;
-
+  transition: .9s;
+  transform: translateY(-100%);
 }
 
 .mb-card:hover .mb-info{
-  display: block;
-  left: 0;
-  
-  
+transform: translateY(0);
+
 }
 /* .mb-info::after{
     content: "";
