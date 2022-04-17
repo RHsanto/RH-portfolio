@@ -1,12 +1,12 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
 import profile from '../../../image/profile.png'
+import { FiGithub ,FiInstagram,FiLinkedin,FiCodepen} from "react-icons/fi";
+
 const About = () => {
   return (
     <div className='container '>
-      <div  data-aos="fade-left"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="500" className="row  my-container about g-4">
+      <div className="row  my-container about g-4">
         <div className="col-lg-6 about-info">
           <h3 className='title '>About me</h3>
          <p className='mt-4'>Hello! My name is Rakibul and I enjoy creating things on the internet. 
@@ -32,6 +32,12 @@ const About = () => {
          <div className="abouts"></div>
          <div className="about-border"></div>
         </div>
+      </div>
+      <div className="side-link d-none d-lg-block">
+       <li><a href="https://github.com/RHsanto"><FiGithub/></a> </li>
+       <li> <a href="https://www.instagram.com/rakibul_hasan008/"><FiInstagram/></a></li>
+       <li><a href="https://www.linkedin.com/in/rakibul-hasan-santo/"><FiLinkedin/></a></li>
+       <li> <a href="https://codepen.io/santo-rh"><FiCodepen/></a></li>
       </div>
     </div>
   );

@@ -2,7 +2,7 @@
 import React from 'react';
 import project1 from '../../image/project-1.png'
 import project3 from '../../image/project-3.png'
-import project2 from '../../image/1650102468052.png'
+import project2 from '../../image/s.PNG'
 import './Projects.css'
 import { AiOutlineGithub } from "react-icons/ai";
 import { HiOutlineExternalLink } from "react-icons/hi";

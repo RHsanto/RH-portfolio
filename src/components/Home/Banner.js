@@ -5,9 +5,7 @@ import Lafalafi from './Lafalafi';
 const Banner = () => {
   return (
  <div className='container '>
- <div  data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" className="row">
+ <div className="row">
    <div className="introduce text-light col-lg-6 my-container">
    <div className='hi'>Hi, my name is</div>
 <h1 className='name'>Rakibul Hasan</h1>
@@ -28,7 +26,8 @@ const Banner = () => {
   
  </div>
 
-   </div>
+  </div>
+  
   );
 };
 
