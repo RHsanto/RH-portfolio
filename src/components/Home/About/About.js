@@ -3,7 +3,10 @@ import profile from '../../../image/profile.png'
 const About = () => {
   return (
     <div className='container '>
-      <div className="row  my-container about g-4">
+      <div  data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500" className="row  my-container about g-4">
         <div className="col-lg-6 about-info">
           <h3 className='title '>About me</h3>
          <p className='mt-4'>Hello! My name is Rakibul and I enjoy creating things on the internet. 

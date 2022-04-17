@@ -44,7 +44,7 @@ color: #21E6C1 !important;
 }
 /* banner css */
 .introduce{
- margin-top: 150px;
+ margin-top: 200px;
  margin-bottom: 150px;
 }
 .introduce h1{
@@ -88,8 +88,8 @@ p{
 /* about css */
 
 .about{
-  margin-top: 100px;
- margin-bottom: 200px;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 
 .about-info{

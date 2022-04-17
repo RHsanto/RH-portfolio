@@ -5,7 +5,7 @@ import { HiMenuAlt1 } from "react-icons/hi";
 const Navbar = () => {
   return (
     <div>
-     <div className="navigation shadow">
+     <div  className="navigation shadow ">
      <div className="container px-0">
        <div className="d-none d-lg-block ">
        <div className=" d-flex justify-content-between items-center nav ">
