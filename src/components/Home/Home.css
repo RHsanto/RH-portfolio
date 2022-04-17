@@ -137,6 +137,7 @@ z-index: 111;
 .offcanvas{
   background-color: #132a4e;
 }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .projects img{
