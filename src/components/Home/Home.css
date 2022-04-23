@@ -11,8 +11,8 @@ a{
   font-size: 20px;
   position: fixed;
   bottom: 0px;
-  left: 40px;
-   right: auto;
+  right: 40px;
+  left: auto;
 }
 .side-link li{
 margin-bottom: 20px;
@@ -27,7 +27,7 @@ margin-bottom: 20px;
   content: "";
   display: block;
   width: 1px;
-  height: 400px;
+  height: 350px;
   margin: 0px auto;
   background-color: #C1CAEA;
 }

@@ -34,10 +34,10 @@ const About = () => {
         </div>
       </div>
       <div className="side-link d-none d-lg-block">
-       <li><a href="https://github.com/RHsanto"><FiGithub/></a> </li>
-       <li> <a href="https://www.instagram.com/rakibul_hasan008/"><FiInstagram/></a></li>
-       <li><a href="https://www.linkedin.com/in/rakibul-hasan-santo/"><FiLinkedin/></a></li>
-       <li> <a href="https://codepen.io/santo-rh"><FiCodepen/></a></li>
+       <li><a target="blank"  href="https://github.com/RHsanto"><FiGithub/></a> </li>
+       <li> <a target="blank" href="https://www.instagram.com/rakibul_hasan008/"><FiInstagram/></a></li>
+       <li><a target="blank" href="https://www.linkedin.com/in/rakibul-hasan-santo/"><FiLinkedin/></a></li>
+       <li> <a target="blank" href="https://codepen.io/santo-rh"><FiCodepen/></a></li>
       </div>
     </div>
   );
