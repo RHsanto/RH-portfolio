@@ -33,7 +33,7 @@ const About = () => {
          <div className="about-border"></div>
         </div>
       </div>
-      <div className="side-link d-none d-lg-block shadow">
+      <div className="side-link d-none d-lg-block ">
        <li><a target="blank"  href="https://github.com/RHsanto"><FiGithub/></a> </li>
        <li> <a target="blank" href="https://www.instagram.com/rakibul_hasan008/"><FiInstagram/></a></li>
        <li><a target="blank" href="https://www.linkedin.com/in/rakibul-hasan-santo/"><FiLinkedin/></a></li>
