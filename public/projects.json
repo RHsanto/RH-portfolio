@@ -1,56 +1,74 @@
 [
-  {"category":"Blogging Site",
-    "img":"https://i.ibb.co/bvfYkCs/project-1.png",
-   "name":"Docy",
-   "description":"The goal of the project is to facilitate documentation or blog posting and to help create different types of documentation or blogs. It allows any user to view anyone's blog without any restrictions.",
-   "tools":"",
-   "client":"https://github.com/thekawsarhossain/Docs-client-site",
-   "server":"https://github.com/RHsanto/docy-server-site",
-   "live":"https://docs-client-site.vercel.app" },
+  {
+    "category": "Blogging Site",
+    "img": "https://i.ibb.co/bvfYkCs/project-1.png",
+    "name": "Docy",
+    "description": "The goal of the project is to facilitate documentation or blog posting and to help create different types of documentation or blogs. It allows any user to view anyone's blog without any restrictions.",
+    "tools": "",
+    "client": "https://github.com/thekawsarhossain/Docs-client-site",
+    "server": "https://github.com/RHsanto/docy-server-site",
+    "live": "https://docs-client-site.vercel.app"
+  },
 
-  {"category":"MERN stack Site",
-    "img":"https://i.ibb.co/2dFJSMp/project-3.png",
-   "name":"Motorcycle",
-   "description":"Motorcycle is a niche product-related MERN stack website. Where users can view, order and delete products. And admin orders can be approved, delete, and add new products.",
-   "tools":"",
-   "client":"https://github.com/RHsanto/racing-car-project-client-side",
-   "server":"https://github.com/RHsanto/racing-car-project-server-side",
-   "live":"https://vibrant-leavitt-6ff91c.netlify.app/" },
+  {
+    "category": "MERN stack Site",
+    "img": "https://i.ibb.co/HNNPgdk/mr-travel.png",
+    "name": "MR-Travel",
+    "description": " MR-Travel is a booking-related MERN stack website. Where users can view and order various travel-related information. And if you want, you can order different flights, hotels, and tour packages. The administrator can approve orders, and delete and add new products.",
+    "tools": "",
+    "client": "https://github.com/RHsanto/Mr-Travel",
+    "server": "https://github.com/RHsanto/Mr_Travel_Server",
+    "live": "https://mr-travel.vercel.app"
+  },
+  {
+    "category": "MERN stack Site",
+    "img": "https://i.ibb.co/2dFJSMp/project-3.png",
+    "name": "Motorcycle",
+    "description": "Motorcycle is a niche product-related MERN stack website. Where users can view, order and delete products. And admin orders can be approved, delete, and add new products.",
+    "tools": "",
+    "client": "https://github.com/RHsanto/racing-car-project-client-side",
+    "server": "https://github.com/RHsanto/racing-car-project-server-side",
+    "live": "https://vibrant-leavitt-6ff91c.netlify.app/"
+  },
 
-  {"category":"Learning Management site",
-    "img":"https://i.ibb.co/Wvn0DZ5/1650102468052.png",
-   "name":"E-learning",
-   "description":"This website has never been fully created. There is some work left in the back-end of it which is in process. I hope this project will be completed soon.",
-   "tools":"",
-   "client":"https://github.com/RHsanto/learning-management-system",
-   "server":"https://github.com/RHsanto/learning-management--server-site",
-   "live":"https://learning-management-system-theta.vercel.app" }
-,
-{"category":"Education site",
-  "img":"https://i.ibb.co/kqDMw9h/project-2.png",
- "name":"Educal",
- "description":"The main purpose of this website is to provide various online courses. From where the user can choose the course of any category",
- "tools":"",
- "client":"https://github.com/RHsanto/edual-project",
- "server":"https://github.com/RHsanto/team-89-project-server-site",
- "live":"https://team-education-site.netlify.app/" }
- ,
-{"category":"Booking site",
-  "img":"https://i.ibb.co/R2tJ3p7/project-4.png",
- "name":"E-Ticket",
- "description":"The main purpose of this website is to book tickets for various sports and events online. From where the user sports, events in any category Can book tickets.",
- "tools":"",
- "client":"https://github.com/RHsanto/myticket-client-side",
- "server":"https://github.com/RHsanto/myticket-server-side",
- "live":"https://e-tickets.netlify.app" }
- ,
-{"category":"Traveling site",
-  "img":"https://i.ibb.co/GWctF0T/project-6.png",
- "name":"Deshghuri",
- "description":"The goal of the project is to facilitate documentation or blog posting and to help create different types of documentation or blogs. It allows any user to view anyone's blog without any restrictions.",
- "tools":"",
- "client":"https://github.com/RHsanto/tourisum-project-client-side",
- "server":"https://github.com/RHsanto/tourisum-project-server-side",
- "live":"https://tour-the-worlds.netlify.app" }
-
+  {
+    "category": "Learning Management site",
+    "img": "https://i.ibb.co/Wvn0DZ5/1650102468052.png",
+    "name": "E-learning",
+    "description": "This website has never been fully created. There is some work left in the back-end of it which is in process. I hope this project will be completed soon.",
+    "tools": "",
+    "client": "https://github.com/RHsanto/learning-management-system",
+    "server": "https://github.com/RHsanto/learning-management--server-site",
+    "live": "https://learning-management-system-theta.vercel.app"
+  },
+  {
+    "category": "Education site",
+    "img": "https://i.ibb.co/kqDMw9h/project-2.png",
+    "name": "Educal",
+    "description": "The main purpose of this website is to provide various online courses. From where the user can choose the course of any category",
+    "tools": "",
+    "client": "https://github.com/RHsanto/edual-project",
+    "server": "https://github.com/RHsanto/team-89-project-server-site",
+    "live": "https://team-education-site.netlify.app/"
+  },
+  {
+    "category": "Booking site",
+    "img": "https://i.ibb.co/R2tJ3p7/project-4.png",
+    "name": "E-Ticket",
+    "description": "The main purpose of this website is to book tickets for various sports and events online. From where the user sports, events in any category Can book tickets.",
+    "tools": "",
+    "client": "https://github.com/RHsanto/myticket-client-side",
+    "server": "https://github.com/RHsanto/myticket-server-side",
+    "live": "https://e-tickets.netlify.app"
+  },
+  {
+    "category": "Traveling site",
+    "img": "https://i.ibb.co/GWctF0T/project-6.png",
+    "name": "Deshghuri",
+    "description": "The goal of the project is to facilitate documentation or blog posting and to help create different types of documentation or blogs. It allows any user to view anyone's blog without any restrictions.",
+    "tools": "",
+    "client": "https://github.com/RHsanto/tourisum-project-client-side",
+    "server": "https://github.com/RHsanto/tourisum-project-server-side",
+    "live": "https://tour-the-worlds.netlify.app"
+  }
 ]

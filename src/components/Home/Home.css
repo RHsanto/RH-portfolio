@@ -1,10 +1,13 @@
-body{
-  font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
   background-color: #132a4e;
   position: relative;
 }
-a{
+a {
   text-decoration: none;
+}
+.navigation{
+  border-bottom: 1px solid #c1caea;
 }
 .side-link {
   list-style: none;
@@ -14,95 +17,96 @@ a{
   right: 40px;
   left: auto;
 }
-.side-link li{
-margin-bottom: 20px;
+.side-link li {
+  margin-bottom: 20px;
 }
-.side-link li a{
-  color: #CCD6F6;
+.side-link li a {
+  color: #ccd6f6;
 }
-.side-link li a:hover{
-  color: #21E6C1
+.side-link li a:hover {
+  color: #21e6c1;
 }
-.side-link::after{
+.side-link::after {
   content: "";
   display: block;
   width: 1px;
   height: 350px;
   margin: 0px auto;
-  background-color: #C1CAEA;
+  background-color: #c1caea;
 }
-.my-container{
+.my-container {
   margin-left: 120px;
 }
-.nav{
-padding: 30px 50px 10px 50px;
+.nav {
+  padding: 30px 50px 10px 50px;
 }
-  .logo{
-    color: white;
-  }
-.menu-lists li{
+.logo {
+  color: white;
+}
+.menu-lists li {
   color: white !important;
-  margin-left: 20px;
+  margin-left: 30px;
   font-size: 1.02em;
-  font-weight:bold !important;
+  font-weight: bold !important;
   cursor: pointer;
   list-style: none;
 }
-.menu-lists li:hover{
-color: #21E6C1 !important;
-   
+.menu-lists li:hover {
+  color: #21e6c1 !important;
 }
 .resume-button {
-  border: 1px solid  #21E6C1;
+  border: 1px solid #21e6c1;
   border-radius: 5px;
   padding: 10px 30px;
-  color: #21E6C1;
+  color: #21e6c1;
   font-weight: bold;
-}  
-.resume-button:hover{
-  background: #21E6C1;
+}
+.resume-button:hover {
+  background: #21e6c1;
   color: black;
 }
 
-.menu-lists{
+.menu-lists {
   display: flex;
 }
 /* banner css */
-.introduce{
- margin-top: 100px;
- margin-bottom: 100px;
+.introduce {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
-.introduce h1{
+.introduce h1 {
   font-size: 60px;
   font-weight: bold;
-  color: #8892B0;
+  color: #8892b0;
 }
-.introduce .name, .contact-title, .contact-me-title{
-  color: #CCD6F6;
+.introduce .name,
+.contact-title,
+.contact-me-title {
+  color: #ccd6f6;
 }
-p{
-  color: #C1CAEA !important;
+p {
+  color: #c1caea !important;
 }
-.hi{
-  color: #21E6C1;
+.hi {
+  color: #21e6c1;
 }
-.resume{
-  border: 1px solid  #21E6C1;
+.resume {
+  border: 1px solid #21e6c1;
   border-radius: 5px;
   padding: 10px 30px;
-  background: #21E6C1;
+  background: #21e6c1;
   font-weight: bold;
   color: black;
 }
-.button-section{
+.button-section {
   margin-top: 50px;
 }
-.title{
-  color: #C1CAEA;
+.title {
+  color: #c1caea;
   font-weight: bold;
 }
 .title:after {
-  content: '';
+  content: "";
   width: 70%;
   height: 1px;
   background-color: #8892b0;
@@ -112,110 +116,104 @@ p{
 }
 /* about css */
 
-.about{
+.about {
   margin-top: 200px;
   margin-bottom: 200px;
 }
 
-.about-info{
+.about-info {
   color: #8892b0;
 }
-.profile img{
-background-color: #E8E2E2;
-width:300px;
-height: 300px;
-object-fit: cover;
-padding-left: 20px;
-position: absolute;
-z-index: 111;
+.profile img {
+  margin-left: -10px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  padding-left: 20px;
+  position: absolute;
+  z-index: 111;
 }
 
-.profile{
+.profile {
   position: relative;
 }
-.about-border{
-  border: 2px solid #21E6C1;
-  width:300px;
+.about-border {
+  border: 2px solid #21e6c1;
+  width: 290px;
   height: 300px;
   left: 12%;
   top: 20px;
   position: absolute;
 }
-.skills{
+.skills {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 5px;
 }
-.skills li{
-  color: #21E6C1;
-  
+.skills li {
+  color: #21e6c1;
 }
 
 /* mb menu */
-.mb-menu li{
+.mb-menu li {
   list-style: none;
   margin-top: 10px;
   text-align: center;
-  color: #C1CAEA;
+  color: #c1caea;
   font-weight: bold;
 }
-.offcanvas{
+.offcanvas {
   background-color: #132a4e;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .projects img{
+  .projects img {
     width: 100% !important;
     object-fit: cover;
-    
   }
-  .site2, .site{
+  .site2,
+  .site {
     width: 100% !important;
-
   }
-  .info{
+  .info {
     padding: 25px;
     margin-left: 0px;
   }
-  .info2{
+  .info2 {
     padding: 25px;
     margin-right: 0px;
   }
-  .div{
-   margin: 0px 0px ;
-   }
-.introduce{
-  margin: 0px 0px;
-  padding:50px 30px;
-}
-  .introduce h1{
+  .div {
+    margin: 0px 0px;
+  }
+  .introduce {
+    margin: 0px 0px;
+    padding: 50px 30px;
+  }
+  .introduce h1 {
     font-size: 30px;
     font-weight: bold;
   }
-  p{
-  font-size: 16px;
+  p {
+    font-size: 16px;
   }
-  .about-border{
-  display: none;
+  .about-border {
+    display: none;
   }
-  .profile img{
+  .profile img {
     position: relative;
   }
   .title:after {
     width: 60%;
   }
-  .my-container{
-  margin-left: 0px;
-}
-.projects img{
-  width: 200px;
-}
-.contact-section {
-  padding: 0px 20px;
-}
-
-
-
-
+  .my-container {
+    margin-left: 0px;
+  }
+  .projects img {
+    width: 200px;
+  }
+  .contact-section {
+    padding: 0px 20px;
+  }
 }
