@@ -34,7 +34,7 @@ const Navbar = () => {
                   <li>
                     <a
                       className="resume-button  "
-                      href="https://drive.google.com/uc?export=download&id=1r6t8GhN25JD4jOrYwv5NRCtZxk_UJary"
+                      href="https://drive.google.com/file/d/12WFkBmjmO7HI7NfTKpdFfBBng7sShCGI/view?usp=sharing"
                       target="_blank"
                     >
                       <i class="fas fa-file-download"></i> RESUME
@@ -105,7 +105,7 @@ const Navbar = () => {
                       <li>
                         <a
                           className="resume-button  "
-                          href="https://drive.google.com/uc?export=download&id=1r6t8GhN25JD4jOrYwv5NRCtZxk_UJary"
+                          href="https://drive.google.com/file/d/12WFkBmjmO7HI7NfTKpdFfBBng7sShCGI/view?usp=sharing"
                           target="_blank"
                         >
                           <i class="fas fa-file-download"></i> RESUME
