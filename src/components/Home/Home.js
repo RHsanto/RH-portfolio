@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Blog from '../Blog/Blog';
+// import Blog from '../Blog/Blog';
 import MbProjects from '../Projects/MbProjects';
 import Projects from '../Projects/Projects';
 import About from './About/About';
@@ -13,7 +13,7 @@ const Home = () => {
       <About/>
       <div className='d-none d-lg-block'> <Projects/></div>
       <div className='d-block d-lg-none'> <MbProjects/></div>
-      <Blog/>
+      {/* <Blog/> */}
       {/* contact section */}
      <div className="container home-contact">
         <div className="row my-container">

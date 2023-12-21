@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
-import project1 from "../../image/project-3.png";
+import project1 from "../../image/karbar.png";
 import project3 from "../../image/mr-travel.png";
 import project2 from "../../image/s.PNG";
 import "./Projects.css";
@@ -70,40 +70,40 @@ const Projects = () => {
           <div className="col-lg-12 ">
             <div className="row">
             <div className="col-lg-6 site2 ">
-                <p>MERN stack Site</p>
-                <h3>Motorcycle</h3>
+                <p>E-commerce</p>
+                <h3>KARBAR</h3>
                 <div className="info2 ">
-                  Motorcycle is a niche product-related MERN stack website. Where users can view,
-                  order and delete products. And admin orders can be approved, delete, and add new
-                  products.
+                Karbar is a  E-commerce website. Users can order any products and Payments with an easy process. 
                 </div>
                 <ul className="mt-4 tools">
                   <li>HTML</li>
                   <li>CSS</li>
-                  <li>React</li>
-                  <li>Material UI</li>
-                  <li>Bootstrap</li>
+                  <li>React Js</li>
+                  <li>Redux-toolkit</li>
+                  <li>Tailwind css</li>
+                  <li>Daisy UI</li>
                   <li>Node.js</li>
                   <li>Express.js</li>
                   <li>MongoDB</li>
+                  <li>Mongoose</li>
                   <li>Firebase</li>
                 </ul>
                 <div className="link-up">
                   <a
                     target="_blank"
-                    href="https://github.com/RHsanto/racing-car-project-client-side"
+                    href="https://github.com/RHsanto/karbar-client"
                   >
                     <AiOutlineGithub />
                     <h6>Client</h6>
                   </a>
                   <a
                     target="_blank"
-                    href="https://github.com/RHsanto/racing-car-project-server-side"
+                    href="https://github.com/RHsanto/dokan_server"
                   >
                     <AiOutlineGithub />
                     <h6>Server</h6>
                   </a>
-                  <a target="_blank" href="https://vibrant-leavitt-6ff91c.netlify.app">
+                  <a target="_blank" href="https://karbar.vercel.app">
                     <HiOutlineExternalLink />
                     <h6>Live</h6>
                   </a>
